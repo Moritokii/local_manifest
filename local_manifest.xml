@@ -7,11 +7,11 @@
         <remote name="xr"
                 fetch="https://github.com/Xtended-Devices" />
 
-
+        <remove-project name="vendor_xtended"/>
         <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="xr" revision="xr" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="xr" revision="xr" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="xr" revision="xr" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="vendor" remote="neonmicky" revision="tissot" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor" remote="neonmicky" revision="common" clone-depth="1" />
-
+        <project path="vendor/xtended" name="vendor_xtended" remote="neonmicky" revision="xr" clone-depth="1" />
 </manifest>
