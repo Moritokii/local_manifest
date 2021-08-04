@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="Moritokii"
-                fetch="https://github.com/Moritokii" />
+        <remote name="neonmicky"
+                fetch="https://github.com/neonmicky" />
 
         <remote name="dot-r"
                 fetch="https://github.com/dotOS-Devices" />
