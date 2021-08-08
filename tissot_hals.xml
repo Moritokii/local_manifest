@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-      <remote name="pixel" fetch="https://github.com/PixelExperience/" />
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+          review="https://review.lineageos.org/"
+          revision="refs/heads/lineage-18.0" />
    
      <remove-project name="android_hardware_qcom_display" />
      <remove-project name="android_hardware_qcom_media" />
-     <project path="hardware/qcom-caf/msm8996-los/display" name="hardware_qcom-caf_msm8996-r_display" remote="pixel" revision="eleven" />
-     <project path="hardware/qcom-caf/msm8996-los/media" name="hardware_qcom-caf_msm8996-r_media" remote="pixel" revision="eleven" />
-
+     <remove-project name="android_hardware_qcom_audio" />
+     <project path="hardware/qcom-caf/msm8996-los/audio" name="android_hardware_qcom_audio" revision="lineage-18.0-caf-msm8996" remote="lineage" />
+     <project path="hardware/qcom-caf/msm8996-los/display" name="android_hardware_qcom_display" revision="lineage-18.0-caf-msm8996" remote="lineage" />
+     <project path="hardware/qcom-caf/msm8996-los/media" name="android_hardware_qcom_media" revision="lineage-18.0-caf-msm8996" remote="lineage" />
 </manifest>
