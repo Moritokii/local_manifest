@@ -10,6 +10,6 @@
 
   <remote name="moritoki" fetch="https://github.com/Moritokii/" />
   
-     <project path="hardware/qcom-caf/msm8996-los/display" name="android_hardware_qcom_display" revision="lineage-18.1" remote="moritoki" />
-     <project path="hardware/qcom-caf/msm8996-los/media" name="android_hardware_qcom_media" revision="lineage-18.1" remote="moritoki" />
+     <project path="hardware/qcom-caf/msm8996-los/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8996" remote="moritoki" />
+     <project path="hardware/qcom-caf/msm8996-los/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8996" remote="moritoki" />
 </manifest>
